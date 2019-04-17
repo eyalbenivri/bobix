@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'bobix'
+
+include 'bobix-admin'
+include 'bobix-admin-fe'
+include 'bobix-common'
+include 'bobix-sync'
+include 'bobix-web'
+include 'bobix-web-fe'
